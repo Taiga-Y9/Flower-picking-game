@@ -81,6 +81,7 @@ def main():
     is_game_over = False  # ゲームオーバーフラグをリセット
     reimu_p = pg.Vector2(6.4, 10)  # 自キャラの初期位置に戻す
     reimu_d = 2  # 向きをリセット
+    flower_spawn_interval = 3500  # 花が生える間隔リセット
   # ゲームループ
   while not exit_flag:
     # イベント処理
